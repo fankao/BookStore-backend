@@ -79,7 +79,6 @@ public class Book {
 
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "categoryId")
-	@JsonIgnore
 	private BookCategory category;
 
 
